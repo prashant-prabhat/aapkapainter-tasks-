@@ -1,0 +1,6 @@
+s=[1,2,3,2,4,4]
+s1=set(s)
+for i in range(len(s)):
+	if s.count(s[i])>1:
+		print(s[i])
+		break
